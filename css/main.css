@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+img {
+  padding: 2em 1em;
+}
+
+.a {
+  background-color: #f2f2f2;
+  padding: inherit;
+  padding: 0.4em 0.75em 0.5em;
+  margin: inherit;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 3px solid #333;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  color: #333;
+}
