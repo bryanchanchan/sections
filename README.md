@@ -20,7 +20,7 @@ deliverables: '1 HTML file, 1 CSS file, images'
 
 - *Typefaces:* `Lato`
 - *Maximum width on section inner boxes:* `25em`
-- *Colours:* `#666`, `#333`, `#f2f2f2`
+- *Colours:* `#666`, `#333`, `#`
 - *Paddings:* `1em`, `2em`, `0.4em 0.75em 0.5em`
 - *Margins:* `1.5rem`
 - *Line-height:* `1.5`

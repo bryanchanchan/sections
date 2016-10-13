@@ -1,45 +1,72 @@
 html {
   box-sizing: border-box;
-  background-color: #f2f2f2;
   line-height: 1.5;
   font-family: "Lato", sans-serif;
+  vertical-align: middle;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-figcaption {
+h2 {
   font-weight: bold;
   line-height: 1.5;
-  margin: 1.5rem;
+  text-align: left;
+  display:inline-block;
+}
+
+body {
+  margin: 0;
+}
+
+.image {
+  max-width: 25em;
+  padding: 1em;
+  margin: 0;
+  display: inline-block;
+  width: 100%;
 }
 
 img {
-  padding: 2em 1em;
   width: 100%;
-  max-width: 25em;
+  display: block;
 }
 
-a {
+.btn {
   background-color: #f2f2f2;
-  padding: 0.4em 0.75em 0.5em;
-  margin: inherit;
-  margin: 1.5rem;
-  line-height: 1.5;
+  padding: 0.4em 0.75em .5em;
   border-radius: 8px;
   border: 3px solid #333;
   text-decoration: none;
-  display: inline-block;
   color: #333;
-
+  text-align: center;
+  font-size: 1.125rem;
 }
 
-a:hover{
+.btn:hover {
   background-color: #666;
   color: #f2f2f2;
 
 }
-figcaption + p {
-  margin: 1.5rem;
+
+h2 + p {
+  margin-bottom: 1.5rem;
+}
+
+p {
+  margin: 0;
+}
+
+section {
+  margin: 0;
+  padding: 2em 0;
+  background-color: #f2f2f2;
+}
+
+.body {
+  padding: 1em;
+  display: inline-block;
+  width: 100%;
+  max-width: 25em;
 }
